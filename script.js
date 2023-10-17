@@ -1,4 +1,4 @@
-const ws = new WebSocket('wss://172.20.10.9:443');
+const ws = new WebSocket('wss://114.137.115.38:443');
 
 function sendMessage() {
   ws.send('Hello, server');
