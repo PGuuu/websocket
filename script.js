@@ -1,4 +1,4 @@
-const ws = new WebSocket('ws://172.20.10.9:8080');
+const ws = new WebSocket('wss://172.20.10.9:8080');
 
 function sendMessage() {
   ws.send('Hello, server');
